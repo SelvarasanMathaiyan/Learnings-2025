@@ -3,6 +3,33 @@
     <head>
         <title>My first Webpage</title>
         <link rel="type" type="image/x-icon" href="/HTML/CODEIO_YT_HTML/assets/webpage logo.png">
+        <style>
+            table, th, tr, td{
+                border: 3px double black;
+                text-align: center;
+            }
+            table{
+                border-spacing: 5px;
+            }
+            td{
+                padding: 10px;
+            }
+            caption{
+                border: 3px double black;
+                background-color: crimson;
+                color: white;
+                font-size: 20px;
+            }
+            caption:hover{
+                border: 3px double rgb(33, 228, 26);
+                background-color: rgb(100, 220, 20);
+                color: white;
+                font-size: 20px;
+            }
+            th{
+                background-color: rgb(241, 232, 177);
+            }
+        </style>
     </head>
     <body style="background-color: rgb(162, 237, 212);">
         <h1 id="BTT" style="color: darkgreen; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;">Hi...I am Selvarasan</h1><hr>
@@ -17,10 +44,42 @@ It's my first Language.
         <h4>My bucket list: </h4>
         <del>I have completed my <b>UG</b> Degree.<sub>(B.Sc-CS)</sub></del><br>
         <del>I have completed my <b>PG</b> Degree.<sup><abbr title="Master of Computer Applications">(MCA)</abbr></sup></del><br>
-        <ins>I got <strong>IT</strong> job definitly.</ins>
+        <ins>I got <strong>IT</strong> job.</ins><br><br>
+        <table style="width: 50%;">
+            <caption>Company Details</caption>
+            <thead>
+                <tr >
+                    <th rowspan="2">Company</th>
+                    <th rowspan="2">Location</th>
+                    <th colspan="2">Best Employees</th>
+                    <th rowspan="2">Rating(/10)</th>
+                </tr>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rasi Seeds</td>
+                    <td>Attur</td>
+                    <td>Suren</td>
+                    <td>Kutty</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Acsen</td>
+                    <td>Bangalore</td>
+                    <td>Mani</td>
+                    <td>Velan</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
         <hr>
         <a href="https://www.instagram.com/_selvarasan__/" target="_blank" style="text-decoration: none; color:brown"><img src="./assets/Instagram_logo.png" alt="instagram image" height="15px">&nbsp;Follow me on Instagram</a>
         <a href="mailto:selvarasanmathaiyan@gmail.com" target="_top" style="text-decoration: none; color: brown"><img src="./assets/Gmail_logo.jpeg" alt="gmail image" height="15px">&nbsp;Email Me</a><br>
+    
         <h4><mark>Address:</mark></h4>
         <address>
             Selvarasan. M <br>
