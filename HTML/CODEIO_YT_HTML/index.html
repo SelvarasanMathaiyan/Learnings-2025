@@ -1,33 +1,51 @@
-<!DOCTYPE html>
+<!DOCTYPE html>    z
 <html>
     <head>
         <title>My first Webpage</title>
         <link rel="type" type="image/x-icon" href="/HTML/CODEIO_YT_HTML/assets/webpage logo.png">
         <style>
-            table, th, tr, td{
+            #company th,#company tr,#company td{
                 border: 3px double black;
                 text-align: center;
             }
-            table{
+            #company{
                 border-spacing: 5px;
             }
-            td{
+            #company td{
                 padding: 10px;
             }
-            caption{
+            #company caption{
                 border: 3px double black;
                 background-color: crimson;
                 color: white;
                 font-size: 20px;
             }
-            caption:hover{
+            #company caption:hover{
                 border: 3px double rgb(33, 228, 26);
                 background-color: rgb(100, 220, 20);
                 color: white;
                 font-size: 20px;
             }
-            th{
+            #company th{
                 background-color: rgb(241, 232, 177);
+            }
+            #calender tr:hover{
+                background-color: aqua;
+            }
+            /*#calender th:nth-child(even), #calender td:nth-child(even), #calender tr:nth-child(even){
+                background-color: rgb(235, 173, 243);
+            }*/
+            #calender{
+                border-collapse: collapse;
+                text-align: center;
+            }
+            #calender tr{
+                border-bottom: 2px solid gray;
+            }
+            #calender caption{
+                font-size: 20px;
+                border: 2px dotted black;
+                background-color: darkolivegreen;
             }
         </style>
     </head>
@@ -45,7 +63,7 @@ It's my first Language.
         <del>I have completed my <b>UG</b> Degree.<sub>(B.Sc-CS)</sub></del><br>
         <del>I have completed my <b>PG</b> Degree.<sup><abbr title="Master of Computer Applications">(MCA)</abbr></sup></del><br>
         <ins>I got <strong>IT</strong> job.</ins><br><br>
-        <table style="width: 50%;">
+        <table id="company" style="width: 50%;">
             <caption>Company Details</caption>
             <thead>
                 <tr >
@@ -73,6 +91,67 @@ It's my first Language.
                     <td>Mani</td>
                     <td>Velan</td>
                     <td>4</td>
+                </tr>
+            </tbody>
+        </table><br><br>
+        <table id="calender" style="width: 80%;">
+            <caption>Calender</caption>
+            <thead>
+                <tr>
+                    <th>SUN</th>
+                    <th>MON</th>
+                    <th>TUE</th>
+                    <th>WED</th>
+                    <th>THU</th>
+                    <th>FRI</th>
+                    <th>SAT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>
